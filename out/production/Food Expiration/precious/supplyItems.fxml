@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<DialogPane xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="precious.SupplyItems">
+
+    <content>
+
+
+        <GridPane  vgap="10">
+            <Text text="Expiration date of 30 days or greater" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Label text="Expiration date" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <DatePicker fx:id="deadLinePicker" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <Button fx:id="supplyItemDateCheck" onAction="#checkValidity" text="Check Validity" textFill="blue" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Text fx:id="supplyMessage" fill="green" text="" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+        </GridPane>
+    </content>
+</DialogPane>

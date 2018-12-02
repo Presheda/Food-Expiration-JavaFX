@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_food_expiration" default="compile.module.food_expiration">
+  <dirname property="module.food_expiration.basedir" file="${ant.file.module_food_expiration}"/>
+  
+  <property name="module.jdk.home.food_expiration" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.food_expiration" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.food_expiration" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.food_expiration" value="-encoding UTF-8 -source 9 -target 9 ${compiler.args}"/>
+  
+  <property name="food_expiration.output.dir" value="${module.food_expiration.basedir}/out/production/Food Expiration"/>
+  <property name="food_expiration.testoutput.dir" value="${module.food_expiration.basedir}/out/test/Food Expiration"/>
+  
+  <path id="food_expiration.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="food_expiration.module.production.classpath">
+    <path refid="${module.jdk.classpath.food_expiration}"/>
+    <pathelement location="${basedir}/jlfgr-1_0.jar"/>
+  </path>
+  
+  <path id="food_expiration.runtime.production.module.classpath">
+    <pathelement location="${food_expiration.output.dir}"/>
+    <pathelement location="${basedir}/jlfgr-1_0.jar"/>
+  </path>
+  
+  <path id="food_expiration.module.classpath">
+    <path refid="${module.jdk.classpath.food_expiration}"/>
+    <pathelement location="${food_expiration.output.dir}"/>
+    <pathelement location="${basedir}/jlfgr-1_0.jar"/>
+  </path>
+  
+  <path id="food_expiration.runtime.module.classpath">
+    <pathelement location="${food_expiration.testoutput.dir}"/>
+    <pathelement location="${food_expiration.output.dir}"/>
+    <pathelement location="${basedir}/jlfgr-1_0.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.food_expiration">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.food_expiration">
+    <patternset refid="excluded.from.module.food_expiration"/>
+  </patternset>
+  
+  <path id="food_expiration.module.sourcepath">
+    <dirset dir="${module.food_expiration.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.food_expiration" depends="compile.module.food_expiration.production,compile.module.food_expiration.tests" description="Compile module Food Expiration"/>
+  
+  <target name="compile.module.food_expiration.production" depends="register.custom.compilers" description="Compile module Food Expiration; production classes">
+    <mkdir dir="${food_expiration.output.dir}"/>
+    <javac2 destdir="${food_expiration.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.food_expiration}/javac">
+      <compilerarg line="${compiler.args.food_expiration}"/>
+      <bootclasspath refid="food_expiration.module.bootclasspath"/>
+      <classpath refid="food_expiration.module.production.classpath"/>
+      <src refid="food_expiration.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.food_expiration"/>
+    </javac2>
+    
+    <copy todir="${food_expiration.output.dir}">
+      <fileset dir="${module.food_expiration.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.food_expiration.tests" depends="register.custom.compilers,compile.module.food_expiration.production" description="compile module Food Expiration; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.food_expiration" description="cleanup module">
+    <delete dir="${food_expiration.output.dir}"/>
+    <delete dir="${food_expiration.testoutput.dir}"/>
+  </target>
+</project>

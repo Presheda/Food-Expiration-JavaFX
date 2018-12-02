@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Food Expiration">
+    <output-path>$PROJECT_DIR$/out/artifacts/Food_Expiration</output-path>
+    <root id="root">
+      <element id="archive" name="Food_Expiration.jar">
+        <element id="module-output" name="Food Expiration" />
+      </element>
+    </root>
+  </artifact>
+</component>

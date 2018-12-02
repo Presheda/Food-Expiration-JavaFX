@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Food Expiration:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Food_Expiration_jar</output-path>
+    <root id="archive" name="Food Expiration.jar">
+      <element id="module-output" name="Food Expiration" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jlfgr-1_0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
