@@ -1,7 +1,4 @@
-package sample.Data;
-
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.property.SimpleStringProperty;
+package precious.Data;
 
 import java.io.Serializable;
 import java.time.LocalDate;

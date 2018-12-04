@@ -1,8 +1,8 @@
-package sample;
+package precious;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.PasswordField;
-import sample.Data.FoodData;
+import precious.Data.FoodData;
 
 /**
  * Created by Precious on 24/11/2018

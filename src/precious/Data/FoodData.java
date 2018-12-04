@@ -1,4 +1,4 @@
-package sample.Data;
+package precious.Data;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -10,8 +10,16 @@ import java.time.format.DateTimeFormatter;
 
 /**
  * Created by Precious on 24/11/2018
+ *
+ * This class manages both the storing for fooditem into database
+ * and loading them back in the program.
+ *
+ * it contains a private constructor and only one singleton which means only one instance ot it can be called at a time
+ *
  */
 public class FoodData {
+
+    /** get the food instance of the FoodData class **/
     private static FoodData instance = new FoodData();
     private static String filename = "FoodListItems.txt";
     private static String passwordPath = "Password.txt";
@@ -25,17 +33,30 @@ public class FoodData {
     }
 
 
+    /**
+     * The private constructor of the class
+     */
     private FoodData(){
         formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
     }
 
+    /**
+     * Adds a new food item to the database for storing
+     * @param item of type foodItem
+     *
+     */
     public void addFoodItems(FoodItem item){
         foodItems.add(item);
     }
 
+    /**
+     * its returns the foodItem that was loaded from the database
+     * @return ObservableListFoodItem
+     */
     public ObservableList<FoodItem> getFoodItems(){
         return foodItems;
     }
+
 
     static {
         try {
@@ -61,7 +82,6 @@ public class FoodData {
 
     public void StoreFoodItems() throws IOException{
 
-        Path path = Paths.get(filename);
 
         try (ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(new File(filename)))) {
             objectOutputStream.writeInt(foodItems.size());

@@ -16,7 +16,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane fx:id="mainBorderPane" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<BorderPane fx:id="mainBorderPane" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="precious.Controller">
 
 
     <top>
@@ -25,9 +25,25 @@
                 <Menu text="File">
                     <items>
                         <MenuItem onAction="#showNewItemDialog" text="New.." />
+                        <MenuItem onAction="#showSupplyItemDialog" text="Supply Items" />
+                        <MenuItem onAction="#showPurchaseItemDialog" text="Purchase" />
                         <MenuItem onAction="#handleExit" text="Exit" />
                     </items>
                 </Menu>
+
+
+                <Menu  text="Logout">
+                    <items>
+                        <MenuItem onAction="#handleLogout" text="Logout" />
+                    </items>
+                </Menu>
+
+                <Menu  text="Manage Users">
+                    <items>
+                        <MenuItem onAction="#lastFiveUsers" text="Manage Users" />
+                    </items>
+                </Menu>
+
             </MenuBar>
             <ToolBar>
                 <HBox>

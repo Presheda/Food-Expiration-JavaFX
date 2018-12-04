@@ -31,7 +31,7 @@ public class PurchaseItems {
 
     public void initialize(){
 
-        purchaseFirst.setText("private Enter Item's Code date \n" + "to check for expiration");
+        purchaseFirst.setText("Enter Item's Code date " + "to check for \n expiration");
 
     }
 
@@ -43,7 +43,7 @@ public class PurchaseItems {
         ObservableList<FoodItem> foodItems = FoodData.getInstance().getFoodItems();
 
         for(FoodItem newFoodItems: foodItems){
-            if(newFoodItems.getItemCode().matches(code)){
+            if(newFoodItems.getItemCode().equalsIgnoreCase(code)){
                 LocalDate todayDate = LocalDate.now();
                 LocalDate itemExpired = newFoodItems.getItemExpiration();
 
@@ -63,7 +63,13 @@ public class PurchaseItems {
                 }
 
                 break;
+
             }
+
+            purchaseMessage.setFill(Color.RED);
+            purchaseMessage.setText("Item with code : "  + code + " was not found please check SPELLING" );
+
+
         }
 
 
@@ -74,7 +80,7 @@ public class PurchaseItems {
     public void Purchase(){
        if (itemsAddedToBasket <= 0){
            purchaseMessage.setVisible(true);
-            purchaseMessage.setText("You have " + itemsAddedToBasket + "in your basket");
+            purchaseMessage.setText("You have " + itemsAddedToBasket + " in your basket");
         }
 
     }

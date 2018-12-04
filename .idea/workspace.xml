@@ -1,45 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Food Expiration:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="JHHO">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Food Expiration.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FoodListItems.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Password.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jlfgr-1_0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/Controller$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/Controller$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/Controller$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/Controller$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/Controller$5$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/Controller$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/Data/FoodData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/Data/FoodItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/Data/css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/DeleteItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/DialogController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/deleteItem.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Food Expiration/sample/todoItemDialog.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Data/FoodData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Data/FoodItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/DeleteItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/DialogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/deleteItem.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/todoItemDialog.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/precious/Data/ManageUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/precious/LastfiveUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/precious/lastFiveUsers.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodListItems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FoodListItems.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDatabase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UserDatabase.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Food Expiration/precious/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Food Expiration/precious/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Food Expiration/precious/Data/AdminAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Food Expiration/precious/Data/AdminAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Food Expiration/precious/Data/PasswordData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Food Expiration/precious/Data/PasswordData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Food Expiration/precious/LoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Food Expiration/precious/LoginScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Food Expiration/precious/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Food Expiration/precious/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Food Expiration/precious/PurchaseItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Food Expiration/precious/PurchaseItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Food Expiration/precious/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Food Expiration/precious/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/Data/AdminAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/Data/AdminAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/Data/FoodData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/Data/FoodData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/Data/FoodItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/Data/FoodItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/Data/PasswordData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/Data/PasswordData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/DeleteItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/DeleteItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/DialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/DialogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/LoginScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/PurchaseItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/PurchaseItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/deleteItem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/deleteItem.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/loginScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/loginScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/precious/todoItemDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/precious/todoItemDialog.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,11 +92,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DialogController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/DialogController.java">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/precious/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+            <state relative-caret-position="192">
+              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/precious/LoginScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManageUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/precious/Data/ManageUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LastfiveUsers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/precious/LastfiveUsers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/precious/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,80 +153,77 @@
         </entry>
       </file>
       <file leaf-file-name="FoodItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Data/FoodItem.java">
+        <entry file="file://$PROJECT_DIR$/src/precious/Data/FoodItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="192">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1100#1101#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <file leaf-file-name="PasswordData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/precious/Data/PasswordData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="228" lean-forward="true" selection-start-line="228" selection-end-line="228" />
+            <state relative-caret-position="112">
+              <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6472#6473#0" expanded="true" />
-                <element signature="e#6515#6516#0" expanded="true" />
-                <element signature="e#8697#8708#0" expanded="true" />
-                <element signature="e#7304#8450#0" expanded="true" />
-                <element signature="e#8449#8450#0" expanded="true" />
-                <element signature="e#7146#7147#0" expanded="true" />
-                <element signature="e#7177#7178#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+      <file leaf-file-name="LastFewLoggin.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LastFewLoggin.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+            <state>
+              <caret column="315" selection-start-column="315" selection-end-column="315" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/precious/Data/AdminAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="784">
+              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
+                <element signature="e#1248#1249#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1420#1421#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FoodData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Data/FoodData.java">
+        <entry file="file://$PROJECT_DIR$/src/precious/Data/FoodData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+            <state relative-caret-position="234">
+              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Password.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Password.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/DeleteItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+                <element signature="e#1447#1448#0" expanded="true" />
+                <element signature="e#3292#3293#0" expanded="true" />
+                <element signature="e#3330#3331#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,9 +234,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="XSLT Stylesheet" />
         <option value="FxmlFile" />
         <option value="Class" />
-        <option value="XSLT Stylesheet" />
       </list>
     </option>
   </component>
@@ -205,6 +245,8 @@
       <find>string</find>
       <find>TodoItem</find>
       <find>filter</find>
+      <find>forma</find>
+      <find>formatter</find>
     </findStrings>
     <replaceStrings>
       <replace>FoodItem</replace>
@@ -230,7 +272,6 @@
         <option value="$PROJECT_DIR$/src/sample/FoodItem.java" />
         <option value="$PROJECT_DIR$/src/sample/deleteItem.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Data/FoodItem.java" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/FoodListItems.txt" />
         <option value="$PROJECT_DIR$/src/sample/todoItemDialog.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Data/Password" />
@@ -240,6 +281,26 @@
         <option value="$PROJECT_DIR$/src/sample/Data/FoodData.java" />
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/precious/deleteItem.fxml" />
+        <option value="$PROJECT_DIR$/src/precious/Data/loginScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/precious/loginScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/precious/supplyItems.fxml" />
+        <option value="$PROJECT_DIR$/src/precious/SupplyItems.java" />
+        <option value="$PROJECT_DIR$/src/precious/PurchaseItems.fxml" />
+        <option value="$PROJECT_DIR$/src/precious/DialogController.java" />
+        <option value="$PROJECT_DIR$/src/precious/PurchaseItems.java" />
+        <option value="$PROJECT_DIR$/src/precious/Data/LastfiveUsers.java" />
+        <option value="$PROJECT_DIR$/src/precious/Controller.java" />
+        <option value="$PROJECT_DIR$/src/precious/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/precious/lastFiveUsers.fxml" />
+        <option value="$PROJECT_DIR$/src/precious/Data/ManageUser.java" />
+        <option value="$PROJECT_DIR$/src/precious/LastfiveUsers.java" />
+        <option value="$PROJECT_DIR$/src/precious/LoginScreen.java" />
+        <option value="$PROJECT_DIR$/src/precious/Main.java" />
+        <option value="$PROJECT_DIR$/src/precious/Data/PasswordData.java" />
+        <option value="$PROJECT_DIR$/src/precious/Data/AdminAccount.java" />
+        <option value="$PROJECT_DIR$/src/precious/Data/FoodData.java" />
       </list>
     </option>
   </component>
@@ -250,7 +311,7 @@
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-30" />
     <option name="y" value="22" />
     <option name="width" value="846" />
@@ -265,8 +326,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -282,15 +341,35 @@
             </path>
             <path>
               <item name="Food Expiration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Food Expiration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="precious" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Food Expiration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Food Expiration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="precious" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Food Expiration" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/../../YardCalculator" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="food_expiration" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -300,13 +379,17 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jlfgr-1_0.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../YardCalculator" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Precious\IdeaProjects\Practice Java By Building Project\Food Expiration\src\precious" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="sample" />
     </key>
@@ -331,12 +414,12 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="MAIN_CLASS_NAME" value="precious.Main" />
       <module name="Food Expiration" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.Data.*" />
+          <option name="PATTERN" value="precious.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,40 +513,39 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32838285" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007553" side_tool="true" weight="0.38118812" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50151056" side_tool="true" weight="0.339934" />
       <window_info anchor="right" id="Maven Projects" order="2" weight="0.32930514" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49848944" weight="0.3729373" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49924472" weight="0.43069306" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info id="Capture Tool" order="5" />
+      <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.6703755" visible="true" weight="0.17069486" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.6703755" visible="true" weight="0.19033232" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32838285" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="right" id="JetGradle" order="8" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="JetGradle" order="7" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Database" order="9" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Changes" order="8" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Profiler" order="10" />
       <window_info anchor="bottom" id="Problems" order="11" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32838285" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" order="14" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -473,12 +555,135 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/DialogController.java">
+    <entry file="file://$PROJECT_DIR$/LastFewLoggin.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="315" lean-forward="true" selection-start-column="315" selection-end-column="315" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/AdminAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/PasswordData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1072">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/FoodItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/FoodData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#3292#3293#0" expanded="true" />
+            <element signature="e#3330#3331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/javafx.base/javafx/collections/ObservableList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Password.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/DeleteItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/DialogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
@@ -488,28 +693,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Data/FoodItem.java">
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/FoodItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/FoodData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#3292#3293#0" expanded="true" />
+            <element signature="e#3330#3331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Password.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/DeleteItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/DialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/FoodItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Data/FoodData.java">
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/FoodData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#3292#3293#0" expanded="true" />
+            <element signature="e#3330#3331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Password.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/DeleteItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3504">
+          <caret line="219" column="52" lean-forward="true" selection-start-line="219" selection-start-column="52" selection-end-line="219" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/DialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/FoodItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/FoodData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="50" column="39" lean-forward="true" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#3292#3293#0" expanded="true" />
+            <element signature="e#3330#3331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -521,128 +862,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DeleteItem.java">
+    <entry file="file://$PROJECT_DIR$/src/precious/DeleteItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/precious/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
           <caret line="106" column="7" lean-forward="true" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6472#6473#0" expanded="true" />
-            <element signature="e#6515#6516#0" expanded="true" />
-            <element signature="e#8697#8708#0" expanded="true" />
-            <element signature="e#7304#8450#0" expanded="true" />
-            <element signature="e#8449#8450#0" expanded="true" />
-            <element signature="e#7146#7147#0" expanded="true" />
-            <element signature="e#7177#7178#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/precious/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/precious/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6472#6473#0" expanded="true" />
-            <element signature="e#6515#6516#0" expanded="true" />
-            <element signature="e#8697#8708#0" expanded="true" />
-            <element signature="e#7304#8450#0" expanded="true" />
-            <element signature="e#8449#8450#0" expanded="true" />
-            <element signature="e#7146#7147#0" expanded="true" />
-            <element signature="e#7177#7178#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/precious/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/precious/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Data/Password.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/DeleteItem.java">
+    <entry file="file://$PROJECT_DIR$/src/precious/DeleteItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Data/FoodData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/css.xsl">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Password.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -651,45 +931,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Data/css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Data/FoodItem.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/javafx.base/javafx/collections/ObservableList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="224">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/SupplyItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/PurchaseItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/precious/DialogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+        <state relative-caret-position="-256">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/ManageUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="228" lean-forward="true" selection-start-line="228" selection-end-line="228" />
+        <state relative-caret-position="448">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6472#6473#0" expanded="true" />
-            <element signature="e#6515#6516#0" expanded="true" />
-            <element signature="e#8697#8708#0" expanded="true" />
-            <element signature="e#7304#8450#0" expanded="true" />
-            <element signature="e#8449#8450#0" expanded="true" />
-            <element signature="e#7146#7147#0" expanded="true" />
-            <element signature="e#7177#7178#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/LastfiveUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="32" column="84" selection-start-line="32" selection-start-column="84" selection-end-line="32" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/FoodItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/LoginScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/PasswordData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/AdminAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/precious/Data/FoodData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#3292#3293#0" expanded="true" />
+            <element signature="e#3330#3331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFewLoggin.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="315" selection-start-column="315" selection-end-column="315" />
         </state>
       </provider>
     </entry>
@@ -699,11 +1088,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>JavaFXApp</last-edited>
+          <last-edited>Food Expiration:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

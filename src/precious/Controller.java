@@ -318,6 +318,28 @@ public class Controller {
 
     }
 
+    @FXML
+    public void lastFiveUsers(){
+
+        Dialog<ButtonType> dialog = new Dialog<>();
+        dialog.initOwner(mainBorderPane.getScene().getWindow());
+        dialog.setTitle("Last Five Logged In Users");
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("lastFiveUsers.fxml"));
+        try {
+            dialog.getDialogPane().setContent(fxmlLoader.load());
+        } catch (IOException e) {
+            System.out.println("Could not load dialog");
+            e.printStackTrace();
+            return;
+        }
+        dialog.getDialogPane().getButtonTypes().add(ButtonType.OK);
+        dialog.getDialogPane().getButtonTypes().add(ButtonType.CANCEL);
+
+        Optional<ButtonType> result = dialog.showAndWait();
+
+    }
+
 
     @FXML
     public void handleExit() {

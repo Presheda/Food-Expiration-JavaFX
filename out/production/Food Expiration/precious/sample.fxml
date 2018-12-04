@@ -38,6 +38,12 @@
                     </items>
                 </Menu>
 
+                <Menu  text="Manage Users">
+                    <items>
+                        <MenuItem onAction="#lastFiveUsers" text="Manage Users" />
+                    </items>
+                </Menu>
+
             </MenuBar>
             <ToolBar>
                 <HBox>

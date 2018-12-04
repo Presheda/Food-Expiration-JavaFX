@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="precious.LastfiveUsers">
+   <children>
+      <TableView fx:id="lastLogginTableView" prefHeight="300.0" prefWidth="400.0">
+        <columns>
+          <TableColumn fx:id="userName" prefWidth="200.0" text="User Name" />
+          <TableColumn fx:id="lastLogged" prefWidth="200.0" text="Last Logged In" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 
 <?import javafx.scene.control.PasswordField?>
-<DialogPane xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DialogController">
+<DialogPane xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="precious.DialogController">
     <headerText>
         Please Add you product
     </headerText>

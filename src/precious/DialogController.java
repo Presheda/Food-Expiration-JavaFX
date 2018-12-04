@@ -1,13 +1,12 @@
-package sample;
+package precious;
 
 
 import javafx.fxml.FXML;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import sample.Data.FoodData;
-import sample.Data.FoodItem;
+import precious.Data.FoodData;
+import precious.Data.FoodItem;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -33,7 +32,7 @@ public class DialogController {
 
     public FoodItem processResult(){
         String ItemName = foodItemName.getText().trim();
-        String foodItemCode= ItemCode.getText().trim();
+        String foodItemCode= ItemCode.getText().trim().toUpperCase();
         String password = adminPassword.getText().trim();
         LocalDate deadlineValue  = deadlinePicker.getValue();
 
